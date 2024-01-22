@@ -9,11 +9,11 @@ Yeni bir sunucu almaya gerek yok.
 
 
 Sunucu güncelleme
+
     ```
-    
 sudo apt update
     ```
-    
+
     ```
 sudo apt upgrade
     ```
