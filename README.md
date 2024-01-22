@@ -18,9 +18,9 @@ Sunucu güncelleme
 
 Binary çekme
 
-   mkdir -p $HOME/.bevm
-   wget -O bevm https://github.com/btclayer2/BEVM/releases/download/testnet-v0.1.1/bevm-v0.1.1-ubuntu20.04 && chmod +x bevm
-   sudo cp bevm /usr/bin/
+    mkdir -p $HOME/.bevm
+    wget -O bevm https://github.com/btclayer2/BEVM/releases/download/testnet-v0.1.1/bevm-v0.1.1-ubuntu20.04 && chmod +x bevm
+    sudo cp bevm /usr/bin/
 
 # Servis oluşturma, mmadresinizi kendinize göre düzenleyin.
 sudo tee /etc/systemd/system/bevm.service > /dev/null << EOF
