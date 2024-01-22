@@ -12,17 +12,8 @@ Sunucu güncelleme
 
     ```
     sudo apt update
-    ```
-
-    ```
     sudo apt upgrade
-    ```
-    
-    ```
     sudo apt install --assume-yes git clang curl libssl-dev llvm libudev-dev make protobuf-compiler
-    ```
-    
-    ```
     sudo ufw allow ssh; sudo ufw allow 30333; sudo ufw allow 20222; sudo ufw allow 30334
     ```
 
