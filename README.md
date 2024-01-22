@@ -47,8 +47,6 @@ Servis başlatma
 Çıktı kontrol, exit-code vermesin dikkat.
 
     sudo journalctl -u bevm -f --no-hostname -o cat
-```
-
 
 > Telemetry kontrol
 https://telemetry.bevm.io/#/0x41cfeafc7177775a0e838b3725a0178b89ebf5dde1b5f766becbf975a24e297b
